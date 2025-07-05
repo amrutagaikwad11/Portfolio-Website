@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Java Developer Portfolio</title>
+  <link href="style1.css" rel="stylesheet" />
+  <script src="first.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+
+</head>
+<body>
+  <div class="portfolio-container">
+    <div class="menu-toggle" onclick="toggleMenu()">
+  <i class="fa fa-bars" id="menu-icon"></i>
+  <i class="fa fa-times" id="close-icon"></i>
+</div>
+
+
+
+
+
+    <ul class="navlist" id="navlist">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Skills">Skills</a></li>
+      <li><a href="#Project">Project</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ul>
+
+    <div class="main-container" id="Home">
+      <div class="content">
+        <p class="intro">Hi I am <span>Amruta Gaikwad</span></p>
+        <h1>Java Developer.</h1>
+        <p class="detail">
+          "I'm a Java Developer focused on building efficient, scalable, and maintainable
+          backend systems. I work with technologies like Spring Boot, Hibernate, and REST
+          APIs to create powerful web applications."
+        </p>
+      </div>
+
+      <div class="image-circle"></div>
+    </div>
+  </div>
+  <!----about------>
+    <div id="About">
+        <div class="container" id="About">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/photo.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="title">About me</h1>
+                    <p>I'm Amruta Gaikwad, a Computer Engineering graduate and passionate frontend developer skilled in HTML, CSS, JavaScript. I love crafting clean, responsive web interfaces that blend function with design. Outside of coding, you'll find me lost in books or exploring new places both fuel my creativity and curiosity.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('hobby')">Hobby</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="hobby">
+                        <ul>
+                            <li><span><b>Hobbies</b></span><br><span id="skill">Reading a Books<br>Traveling<br>Listening a Music<br>Watching a Movies</span></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span><b>Fresher</b></span><br></li>
+                            <li><span><b>Intership</b></span><br><span id="skill">AWS at Rajavi technologies</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span><b>Bachelor of Engineering</b></span><br><span id="skill">at S B Patil College of Engineering,Indapur</span></li>
+                            <li><span><b>12 th</b></span><br><span id="skill">at SNRH & Junior college,Indapur</span></li>
+                            <li><span><b>10 th</b></span><br><span id="skill">at Utkarsh Vidya Mandir,Kalthan no 1</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----Skills----->
+<div id="Skills">
+        <div class="container">
+           <h1 class="sub">Skills</h1>
+           <div class="skills-list">
+            <div>
+                
+                <h2 class="name1"><i class="fa-solid fa-code" style="font-size: 30px;color:aqua;"></i>Frontend Design</h2>
+                <p id="p">the visual layout and user interface of a website or application that users interact with directly. It focuses on design, responsiveness, and user experience using technologies like HTML,CSS,Bootstrap,jquery and JavaScript.</p>
+            </div>
+
+             <div>
+                <h2 class="name2"><i class="fa fa-crop" style="font-size:36px;color:aqua;"></i>Programming Languages</h2>
+                <p id="p">I have knowledge in programming with C, C++, and JavaScript, enabling me to develop both system-level and web-based applications. My skills include writing efficient code, solving logical problems, and creating interactive user interfaces.</p>
+            </div>
+
+             <div>
+               
+                <h2 class="name3"> <i class="fa fa-database" style="font-size: 30px;color:aqua;"></i>Database</h2>
+                <p id="p">I have knowledge of MySQL, including designing databases, writing complex queries, and managing data efficiently. I am skilled in performing CRUD operations, optimizing queries, and ensuring data integrity in relational databases.</p>
+            </div>
+           </div>
+        </div>
+
+    </div>
+
+    <!----Project------>
+    <div id="Projects">
+        <div class="container" id="Project">
+            <h1 class="sub">Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/project1.jpeg"style="width: 400px; height: 300px;" >
+                    <div class="layer">
+                        <h3>Porfolio Website</h3>
+                        <p class="des">A personal website that showcases a student's academic background, projects, skills, achievements, and resume. It helps demonstrate the student abilities to potential employers, colleges, or collaborators</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/project2.jpeg"style="width: 400px; height: 300px;">
+                    <div class="layer">
+                        <h3>e-commerce website</h3>
+                        <p class="des">The eCommerce website for a gold shop is an online platform that allows customers to browse, select, and purchase gold jewelry and ornaments from the comfort of their home. </p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/project3.jpeg"style="width: 400px; height: 300px;">
+                    <div class="layer">
+                        <h3>Proctoring System</h3>
+                        <p class="des">An online proctoring system is a software solution designed to monitor and ensure the integrity of online exams. It is used to prevent cheating and impersonation during remote assessments.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!------Contact------->
+    <div class="container" id="Contact">
+        <div class="row">
+            <h1 class="sub-title">Contact me</h1> <br><br><br>
+            <div class="contact-left">
+                
+                <p class="info"><i class="fa-solid fa-envelope"style="font-size:36px"></i>&ensp;amrutagaikwad1811@gmail.com</p>
+                <p class="info"><i class="fa-solid fa-phone" style="font-size:32px">&ensp;</i>9980903235</p>
+                <p class="info"><i class="fa-brands fa-linkedin"  style="font-size:36px">&ensp;</i>https://www.linkedin.com/in/amruta-gaikwad-8384b7266</p>
+                <p class="info"><i class="fa-brands fa-instagram" style="font-size:36px">&ensp;</i> amruta1811</p>
+                <div class="social-icons">
+                    <i class="bi bi-telephone"></i>
+
+                    
+                    
+                </div >
+               <a href="images/My_resume.pdf" id="btn" download>Download CV</a>
+
+                
+            </div>
+            
+
+            <div class="contact-right">
+            <form onsubmit="return validateForm()">
+    <input type="text" name="Name" placeholder="Your Name" required><br><br>
+    <input type="email" name="email" placeholder="Your Email" required><br><br>
+    <textarea name="Message" rows="3" placeholder="Your Message" required></textarea><br><br>
+    <button type="submit" class="btn btn2">Submit</button><br>
+            </form>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-----footer---->
+   <footer class="footer">
+  <h2 class="footer-name">Amruta Gaikwad</h2>
+  
+  <div class="footer-icons">
+    <a href="mailto:amrutagaikwad1811@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/amruta-gaikwad-8384b7266" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://instagram.com/amruta1811" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+  
+  </div>
+  <div class="copy">  <p>&copy; 2025 Amruta Gaikwad. All rights reserved.</p></div>
+
+  
+</footer>
+
+
+    
+    
+    
+</body>
+</html>
+</body>
+</html>
